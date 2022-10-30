@@ -374,6 +374,131 @@ table {
   padding-top: 40px;
 }
 
+.layout-tip-block {
+  background: #ebebeb;
+  width: 100%;
+  min-height: 806px;
+}
+
+.layout-tip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 89px;
+}
+.layout-tip h3 {
+  font-size: 31px;
+  line-height: 36px;
+}
+.layout-tip .layout-tip__description {
+  font-size: 15px;
+  line-height: 24px;
+  padding: 11px 0 40px;
+}
+.layout-tip img {
+  box-shadow: 1px 1px 70px -18px rgba(0, 0, 0, 0.75);
+}
+.layout-tip .layout-tip__img-description {
+  font-size: 12px;
+  line-height: 21px;
+  color: #777777;
+  margin-top: 20px;
+}
+.layout-tip .layout-tip__img-row {
+  display: flex;
+  margin-top: 40px;
+}
+@media screen and (max-width: 960px) {
+  .layout-tip .layout-tip__img-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.layout-tip .layout-tip__img-row .layout-tip__item {
+  background: #ffffff;
+  max-width: 364px;
+  min-height: 316px;
+  margin: 10px;
+}
+.layout-tip .layout-tip__img-row .layout-tip__item h6 {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 30px 0;
+}
+.layout-tip .layout-tip__img-row .layout-tip__item p {
+  font-size: 13px;
+  line-height: 20px;
+  padding-top: 40px;
+}
+
+.additional-tips__title {
+  font-size: 32px;
+  line-height: 36px;
+  padding: 99px 0 41px;
+}
+@media screen and (max-width: 959px) {
+  .additional-tips__title {
+    text-align: center;
+  }
+}
+
+.additional-tips__row {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 959px) {
+  .additional-tips__row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.additional-tips__row .additional-tips__item {
+  max-width: 244px;
+  width: 100%;
+  padding: 0 15px;
+}
+@media screen and (max-width: 959px) {
+  .additional-tips__row .additional-tips__item {
+    max-width: 420px;
+  }
+}
+.additional-tips__row .additional-tips__item img {
+  width: 100%;
+}
+.additional-tips__row .additional-tips__item h4 {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 30px 0 13px;
+}
+@media screen and (max-width: 959px) {
+  .additional-tips__row .additional-tips__item h4 {
+    text-align: center;
+  }
+}
+.additional-tips__row .additional-tips__item p {
+  font-size: 15px;
+  line-height: 24px;
+}
+@media screen and (max-width: 959px) {
+  .additional-tips__row .additional-tips__item p {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
+
+.footer {
+  background: #111111;
+  width: 100%;
+  min-height: 50px;
+}
+.footer p {
+  font-size: 12px;
+  line-height: 20px;
+  color: #777777;
+  padding: 15px 0;
+}
+
 .container {
   max-width: 1122px;
   margin: 0 auto;
