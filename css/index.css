@@ -316,6 +316,64 @@ table {
     flex-direction: column-reverse;
   }
 }
+.layout-tip-block {
+  background: #ebebeb;
+  width: 100%;
+  min-height: 806px;
+}
+
+.layout-tip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 89px;
+}
+.layout-tip h3 {
+  font-size: 31px;
+  line-height: 36px;
+}
+.layout-tip .layout-tip__description {
+  font-size: 15px;
+  line-height: 24px;
+  padding: 11px 0 40px;
+}
+.layout-tip img {
+  box-shadow: 1px 1px 70px -18px rgba(0, 0, 0, 0.75);
+}
+.layout-tip .layout-tip__img-description {
+  font-size: 12px;
+  line-height: 21px;
+  color: #777777;
+  margin-top: 20px;
+}
+.layout-tip .layout-tip__img-row {
+  display: flex;
+  margin-top: 40px;
+}
+@media screen and (max-width: 960px) {
+  .layout-tip .layout-tip__img-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.layout-tip .layout-tip__img-row .layout-tip__item {
+  background: #ffffff;
+  max-width: 364px;
+  min-height: 316px;
+  margin: 10px;
+}
+.layout-tip .layout-tip__img-row .layout-tip__item h6 {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 30px 0;
+}
+.layout-tip .layout-tip__img-row .layout-tip__item p {
+  font-size: 13px;
+  line-height: 20px;
+  padding-top: 40px;
+}
+
 .container {
   max-width: 1122px;
   margin: 0 auto;
