@@ -10,11 +10,15 @@
 	padding: 25px 0;
 	.nav-bar__list {
 		display: flex;
-		.nav-bar__item {
+		a {
+			text-decoration: none;
 			margin: 0 20px;
 			font-size: 13px;
 			line-height: 20px;
-			color: #FFFFFF;
+			color: #ffffff;
+			&:hover {
+				border-bottom: 1px solid #ffffff;
+			}
 		}
 	}
 }

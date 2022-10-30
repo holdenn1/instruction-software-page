@@ -1,0 +1,15 @@
+.sponsors {
+	background: #d3d3d3;
+	width: 100%;
+	min-height: 152px;
+	@media screen and (max-width: 759px) {
+		display: none;
+	}
+	.sponsors__list {
+		display: flex;
+		justify-content: space-between;
+		img {
+			padding: 50px 0;
+		}
+	}
+}
