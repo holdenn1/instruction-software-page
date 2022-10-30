@@ -479,6 +479,7 @@ table {
 .additional-tips__row .additional-tips__item p {
   font-size: 15px;
   line-height: 24px;
+  padding-bottom: 90px;
 }
 @media screen and (max-width: 959px) {
   .additional-tips__row .additional-tips__item p {
